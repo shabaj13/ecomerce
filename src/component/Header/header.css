@@ -1,0 +1,91 @@
+.header {
+  padding: 0 6%;
+  height: 65px;
+  width: 100%;
+  top: 0;
+  background-color:#fff;
+  position: fixed;
+  box-shadow: 0 0 4px #ccc;
+  z-index: 10;
+}
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+}
+.headerLogo .logo {
+  font-size: 30px;
+  font-weight: 500;
+  color: blueviolet;
+}
+.headerMenu input {
+  padding: 5px 15px;
+  margin: 0 3px;
+  border: none;
+  border-radius: 50px;
+  width: 400px;
+  box-shadow: 0 0 2px #222
+}
+.headerMenu .menuOpt {
+  padding: 8px 4px;
+  cursor: pointer;
+  color: blueviolet;
+  font-weight: 500;
+}
+.headerMenu .fashionOpt .fashionDropDown {
+  position: absolute;
+  transform: rotateX(90deg);
+  transform-origin: center top 0;
+  transition: all 0.7s ease 0s;
+  top: 75%;
+  right: 4.5%;
+  list-style: none;
+}
+.headerMenu .fashionOpt:hover .fashionDropDown {
+  transform: rotateX(0deg);
+}
+
+.headerMenu .shopOpt .shopDropDown {
+  position: absolute;
+  transform: rotateX(90deg);
+  transform-origin: center top 0;
+  transition: all 0.7s ease 0s;  
+  right: 13.5%;
+  top: 75%;
+  list-style: none;
+}
+.headerMenu .shopOpt:hover .shopDropDown {
+  transform: rotateX(0deg);
+}
+.buyDetails{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buyDetails .buyIcons {
+  font-size: 30px;
+  margin: 6px 8px;
+  cursor: pointer;
+  color: blueviolet;
+}
+.buyDetails span{
+  position: absolute;
+  font-size: 18px;
+  top: 8px;
+  margin-left: -5px;
+}
+
+.accountOpt .accountDropDown {
+  position: absolute;
+  transform: rotateX(90deg);
+  transform-origin: center top 0;
+  transition: all 0.7s ease 0s;
+  top: 75%;
+  right: 11.5%;
+  list-style: none;
+}
+.accountOpt:hover .accountDropDown{
+  transform: rotateX(0deg);
+}

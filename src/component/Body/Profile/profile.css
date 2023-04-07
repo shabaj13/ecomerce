@@ -1,0 +1,80 @@
+.profile{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  padding: 0 6%;
+  margin-top: 65px;
+  background-color: #f6f6f6;
+}
+.profileSideBar{
+  width: 300px;
+  height: fit-content;
+  background-color: #fff;
+  margin-top: 10px;
+  box-shadow: 0 0 4px #ccc;
+  border-radius: 4px;
+}
+.accountNameDiv{
+  display: flex; 
+  align-items: center;
+  margin-bottom: 20px;
+}
+.accountNameDiv .accountImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px
+}
+.accountNameDiv .accountImage img{
+  width:70px;
+}
+.accountNameDiv .accName span{
+  font-size: 18px;
+}
+.accountNameDiv .accName p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.sideBarTitle{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 5px;
+  border-top: 1px solid #f1f1f1;
+  user-select: none;
+}
+.sideBarTitle:nth-child(2):hover{
+  cursor: pointer;
+  background-color: #f4f4f4;
+}
+.sideBarTitle:last-child:hover{
+  cursor: pointer;
+  background-color: #f4f4f4;
+}
+
+.sideBarTitle p{
+  padding-left: 8px;
+}
+
+.sideBarSubMenu{
+  list-style: none;
+  padding-top: 5px;
+}
+.sideBarSubMenu li{
+  padding: 5px 0 5px 30px;
+  cursor: pointer;
+}
+.sideBarSubMenu li:hover{
+  color: blueviolet;
+}
+
+
+.profileContent{
+  width: 100%;
+  height: fit-content;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 4px #ccc;
+  border-radius: 4px;
+}

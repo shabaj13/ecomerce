@@ -1,0 +1,66 @@
+.coverSlide{
+  background-color: #f0e0ff;
+  margin-top: 65px;
+  height: 80vh;
+  display: flex;
+}
+.slideContent{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;  
+}
+
+.slideContentLeft{
+  width: fit-content;
+  margin: 3%;
+}
+.slideContentLeft p{
+    font-size: 26px;
+    font-weight: 500;
+    color: #222;
+}
+.slideContentLeft h1{
+  font-size: 70px;
+  font-weight: 400;
+  color: #222;
+}
+.slideContentLeft button{
+  background-color: transparent;
+  border: 1px solid #222;
+  color: #222;
+  font-size: 16px;
+  padding: 10px 30px;
+  transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.slideContentLeft button:hover{
+  color: #fff;
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+.slideContentRight{
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slideContentRight img{
+  height: 450px;
+  width: 400px;
+}
+.slidePrevBtn{
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  cursor: pointer;
+  user-select: none;
+}
+.slideNextBtn{
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  right: 0;
+  cursor: pointer;
+  user-select: none;
+}

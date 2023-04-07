@@ -1,0 +1,63 @@
+.personalInfo{
+  padding: 3% 4%;
+}
+.personInfo{
+  margin-bottom: 30px;
+}
+.personInfo .personInfotitleDiv{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.personInfo .personInfotitleDiv p{
+  font-size: 22px;
+  font-weight: 500;
+  color: #222;
+}
+.personInfo .personInfotitleDiv span{
+  font-size: 14px;
+  font-weight: 500;
+  color: blueviolet;
+  margin:  0 10px;
+  cursor: pointer;
+}
+.personInfo .personInfoformDiv{
+  display: flex;
+  align-items: center;
+}
+.personInfoformDiv .personInfoInputDiv{
+  display: flex;
+  flex-direction: column;
+  padding:2px  5px;
+  height: 50px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.personInfoformDiv .personInfoInputDiv label{
+  font-size: 11px;
+  color: #9d9ec1;
+  transition: all 0.5s ease;
+}
+.personInfoformDiv .personInfoInputDiv input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+}
+
+.personInfoformDiv .personInfoBtnDiv button{
+  height: 50px;
+  width: 100px;
+  margin-left: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 3px;
+}
+.personInfoformDiv .personInfoBtnDiv button:hover{
+  cursor: pointer;
+  background-color: rgba(137, 43, 226, 0.781);
+}

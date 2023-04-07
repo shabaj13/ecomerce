@@ -1,0 +1,84 @@
+.itemContainer{
+  padding: 0 6%;
+  margin: 10px 0;
+  
+}
+.itemHeading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 0 0 3px #ccc;
+  
+}
+.itemHeading h1{
+  font-weight: 400;
+}
+.itemHeading button{
+  padding: 5px 20px;
+  background:blueviolet;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.itemCardDiv{
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  gap: 20px;
+  margin-top: 10px;
+  box-shadow: 0 0 4px #ccc;
+  padding: 10px 10px;
+}
+.itemCardDiv .itemCardContent{
+  width: 100%;
+  box-shadow: 0 0 1px 0px ;
+
+}
+.itemCardContent .itemCard{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.itemCard .cardImg{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemCard .cardImg img{
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.itemCard .cardImg img:hover{
+  transform: scale(1.08);
+}
+.itemCard .cardDetail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+.itemCard .cardDetail h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222;
+  cursor: pointer;
+  text-align: center;
+  height: 60px;
+}
+.itemCard .cardDetail h4:hover{
+color: blueviolet;
+}
+.itemCard .cardDetail span{
+  color: green;
+}
+.itemCard .cardDetail p{
+  font-size: 14px;
+  color: #9d9ec1;
+}

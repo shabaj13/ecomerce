@@ -1,0 +1,125 @@
+.manageAddress{
+  padding: 3% 4%;
+}
+.manageAddress h1{
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.manageAddress .addAddressDiv button{
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  background: none;
+  border: none;
+  color: blueviolet;
+}
+.manageAddress .addAddressDiv button:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.manageAddress form{
+  border: 1px solid #ccc;
+  padding: 30px 50px;
+  background-color: #E8F0FE;
+}
+form .addressInputDiv{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.addressInputDiv .addressInfoInput{
+  display: flex;
+  flex-direction: column;
+  padding:2px  5px;
+  height: 50px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.addressInputDiv .addressInfoInput label,.addressTextareaDiv p{
+  font-size: 11px;
+  color: #9d9ec1;
+  transition: all 0.5s ease;
+ 
+}
+.addressInputDiv .addressInfoInput input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+}
+.addressTextareaDiv{
+  width: 91%;
+  
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding:2px  5px;
+}
+
+.addressTextareaDiv textarea{
+  border: none;
+  resize: none;
+  width: 100%; 
+  height: 80px;
+  font-size: 16px;
+}
+.addressBtnDiv{
+  margin-top: 20px;
+}
+.addressBtnDiv .addressAddBtn{
+  height: 40px;
+  width: 80px;
+  background-color: blueviolet;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.addressBtnDiv .addressAddBtn:hover{
+  background-color: rgba(137, 43, 226, 0.747);
+  cursor: pointer;
+}
+.addressBtnDiv .addressCancelBtn{
+  background: transparent;
+  color: blueviolet;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+}
+.addressBtnDiv .addressCancelBtn:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.addressDiv{
+  width: 100%;
+  box-shadow: 0 0 4px #ccc;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.addressDiv .address p{
+  font-weight: 500;
+}
+
+.addressDiv button{
+  background: transparent;
+  border: none;
+  color: crimson;
+  font-weight: 500;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.addressDiv button:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}

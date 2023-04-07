@@ -1,0 +1,25 @@
+.fashsionDD{
+  display: flex;
+  background-color: #fff;
+  z-index: 1;
+  box-shadow: 0px 0px 2px #222;
+}
+.dropDown{
+  padding: 10px;
+}
+.dropDown h2{
+  font-size: 16px;
+  color: #222;
+}
+.dropDown li{
+  list-style: none;
+  font-size: 14px;
+  color: #222;
+  margin: 2px 0;
+  cursor: pointer;
+
+}
+.dropDown li:hover{
+  color: blueviolet;
+  cursor: pointer;
+}

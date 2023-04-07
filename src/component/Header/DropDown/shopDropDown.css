@@ -1,0 +1,10 @@
+.shopDD{
+  display:grid;
+  grid-template-columns: auto auto;
+  box-shadow: 0px 0px 2px #222;
+  gap: 10px;
+  width: fit-content;
+  background-color: #ffffff;
+  z-index: 1;
+ 
+}

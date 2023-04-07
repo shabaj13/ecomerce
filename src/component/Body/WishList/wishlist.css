@@ -1,0 +1,110 @@
+.wishlist{
+  padding: .5% 6%;
+  margin-top: 65px;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+.wishlistHeading{
+  margin: 10px 5px;
+  background-color: #fff;
+  box-shadow: 0 0 4px #ccc;
+  border-radius: 4px;
+}
+.wishlistHeading h1{
+  font-weight: 400;
+  padding: 5px 10px;
+  font-size: 38px;
+}
+.wishlist .emptyWish{
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 4px #ccc;
+  margin: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.wishlist .emptyWish h1{
+  position: absolute;
+  top: 25%;
+  font-weight: 400;
+  color: grey;
+}
+.wishlist .emptyWish img{
+  height: 300px
+}
+
+.wishlistContent{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  background-color: #fff;
+  margin: 5px;
+  box-shadow: 0 0 4px #ccc;
+  border-radius: 4px;
+}
+.wishlistImageDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+}
+.wishlistImageDiv img{
+  width: 180px;
+  border-radius: 4px;
+}
+.wishlistDetails{
+  padding: 20px 0;
+}
+.wishlistDetails h3{
+color: #222;
+cursor: pointer;
+}
+.wishlistDetails h3:hover{
+  color: blueviolet;
+}
+.wishlistDetails span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 10px 0;
+  padding: 2px 5px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+}
+.wishlistDetails p{
+  font-size: 20px;
+  font-weight: 500;
+  color: green;
+}
+.wishlistButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wishlistButton .addToCart{
+  font-size: 18px;
+  background-color: blueviolet;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.wishlistButton .addToCart:hover{
+  background-color: rgba(137, 43, 226, 0.801);
+}
+.wishlistButton .removewishlist{
+  font-size: 30px;
+  border: none;
+  background:transparent;
+  color: crimson;
+  cursor: pointer;
+}
+.wishlistButton .removewishlist:hover{
+  transform: scale(1.2);
+}

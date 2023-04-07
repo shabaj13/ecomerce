@@ -1,0 +1,31 @@
+.support{
+  padding: 0 6%;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.supportContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.supportContent .iconDiv,.detailDiv{
+  padding: 10px;
+}
+.iconDiv img{
+  height: 50px;
+}
+.iconDiv img:hover{
+  transform: rotateY(360deg);
+  transition: all 1s ease;
+}
+
+.detailDiv p{
+  font-size: 18px;
+  color: #222;
+  font-weight: 500;
+}
+.detailDiv span{
+  color: #9d9ec1;
+}
