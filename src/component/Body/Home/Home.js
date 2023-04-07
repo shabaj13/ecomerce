@@ -22,7 +22,7 @@ const Home = () => {
       <CoverSlide />
       <Support />
       {getCategory.map((elem, idx) => {
-        return <ItemList product={product} category={elem} key={idx} />
+        return <ItemList product={product} category={elem} key={idx}   />
      })} 
     </>
   )

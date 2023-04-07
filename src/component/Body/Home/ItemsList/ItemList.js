@@ -12,7 +12,7 @@ const ItemList = ({ product, category }) => {
         </div>
         <div className="itemCardDiv">
         {filter.map((curElem) => {
-          return <div className="itemCardContent">
+          return <div className="itemCardContent" data-aos="fade-up" data-aos-duration="120">
           <div className="itemCard">
             <div className="cardImg">
             <Link to={`/fashion/${curElem.id}`}><img src={curElem.images} alt={curElem.title} /></Link>

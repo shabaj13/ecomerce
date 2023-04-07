@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './wishlist.css'
 import { MdStar } from "react-icons/md";
 import { BiTrash } from "react-icons/bi";
 import { useDispatch, useSelector } from 'react-redux';
-import { delWish,addToCart,delCart } from '../../Redux/Action/Action';
+import { delWish } from '../../Redux/Action/Action';
 
 const Wishlist = () => {
   const state = useSelector((state) => state.handleWishlist)
@@ -41,7 +41,7 @@ const Wishlist = () => {
         </div>
         {state.length === 0 && <div className="emptyWish">
           <h1>Wishlist Is Empty!!!</h1>
-          <img src="Images/emptyWish-removebg-preview.png" alt="empty Wishlist" />
+          <img src="Images/emptyWish-removebg-preview.png" alt="emptyWishlist" />
         </div>}
          {state.length !== 0 && state.map(wishItem)}   
     </div>

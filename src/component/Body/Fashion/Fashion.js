@@ -76,7 +76,7 @@ const Fashion = () => {
             </div>
             <div className="productsDiv">
               {product.map((elem,index) => {
-                return <div className="products" key={index}>
+                return <div className="products" key={index} data-aos="fade-up" data-aos-duration="120" data-aos-once="true">
                   <div className="productsImg">
                   <Link to={`/fashion/${elem.id}`}><img src={elem.images} alt={elem.title} /></Link>
                 </div>

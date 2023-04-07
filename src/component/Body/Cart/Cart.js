@@ -4,7 +4,7 @@ import { FcOk } from "react-icons/fc";
 import { useSelector } from "react-redux";
 import { useDispatch } from 'react-redux'
 import { delCart } from '../../Redux/Action/Action';
-import { Link } from 'react-router-dom';
+
 
 const Cart = () => {
   const state = useSelector((state) => state.handleCart)
@@ -22,7 +22,7 @@ const Cart = () => {
                   <img src={cartItem.images} alt={cartItem.title} />
               </div>
               <div className="cartItemDetailDiv">
-                <Link to={`/fashion/${cartItem.id}`}><h3>{cartItem.title}n</h3></Link>
+                <h3>{cartItem.title}n</h3>
                 <span>In Stock</span>
                 <p>Colour: Blue </p>
                     <div className="cartItemQuantity">
